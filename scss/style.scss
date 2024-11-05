@@ -1,0 +1,49 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Font Awesome */
+@import "../vendors/fontawesome/scss/fontawesome";
+@import "../vendors/fontawesome/scss/solid";
+@import "../vendors/fontawesome/scss/brands";
+@import "../vendors/fontawesome/scss/regular";
+
+/* Remix Icons */
+@import "../vendors/remix-icon/scss/remixicon";
+
+/* Bootstrap */
+@import "../vendors/bootstrap/scss/bootstrap";
+
+/* Owl Carousel */
+@import "../vendors/OwlCarousel/scss/owl.carousel";
+@import "../vendors/OwlCarousel/scss/owl.theme.default";
+
+/* Mixin */
+@import "mixin/variables";
+@import "mixin/breakpoint";
+@import "mixin/mixins";
+
+/* Reset */
+@import "reset";
+
+/* Components */
+@import "components/backTop";
+@import "components/button";
+@import "components/heading";
+@import "components/card";
+@import "components/others";
+@import "components/input";
+
+/* Layout */
+@import "layout/header";
+@import "layout/footer";
+
+/* section */
+@import "section/heroBanner";
+@import "section/service";
+@import "section/testimonial";
+@import "section/about";
+@import "section/contact";
+@import "section/payment";
+@import "section/checkout";
+@import "section/loader";
+@import "section/error";

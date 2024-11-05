@@ -1,0 +1,43 @@
+// Gap
+.gap-y1 {
+  gap: 1em 0;
+}
+
+.gap-y2 {
+  gap: 2em 0;
+}
+
+.gap-y3 {
+  gap: 3em 0;
+}
+
+// Rating
+.rating {
+  li {
+    display: inline-block;
+
+    i {
+      color: $primaryClr;
+    }
+  }
+}
+
+// List
+.listStyleOne {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    list-style: none;
+  }
+}
+
+// Code
+code {
+  padding: 0;
+  border-radius: 0;
+  color: $primaryClr;
+  background-color: transparent;
+  font-weight: 700;
+}

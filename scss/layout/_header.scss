@@ -1,0 +1,139 @@
+// Logo Sec
+.logoSec {
+  padding: 10px 0;
+
+  a {
+    display: inline-block;
+
+    img {
+      height: 34px;
+    }
+  }
+}
+
+// Main Header
+.mainHeader {
+  background-color: $secondaryClr;
+  margin-bottom: 15px;
+
+  .navbar {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+
+    .navbar-toggler {
+      box-shadow: unset;
+      border: none;
+      color: $whiteClr;
+      font-size: 1em;
+      margin: 10px auto;
+    }
+
+    .navbar-nav {
+      gap: 50px;
+
+      @include md {
+        gap: 0;
+      }
+
+      .nav-item {
+        position: relative;
+
+        .nav-link {
+          font-size: 1em;
+          font-weight: 600;
+          letter-spacing: 0.1em;
+          position: relative;
+          color: $whiteClr;
+          padding: 16px 0;
+          transition: $ease5;
+
+          @include md {
+            padding: 10px 0;
+          }
+
+          &:hover,
+          &.active {
+            color: $yellowClr;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Main Header Two
+.mainHeaderTwo {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  padding: 24px 0;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      a {
+        font-size: $fz12;
+        text-transform: uppercase;
+        padding: 6px 15px;
+        border-radius: 4px;
+        color: $titleClr;
+        display: inline-block;
+
+        &:hover,
+        &.active {
+          color: $secondaryClr;
+          background-color: $whiteClr;
+        }
+      }
+    }
+  }
+}
+
+// Main Header Three
+.mainHeaderThree {
+  .topSec {
+    padding: 10px 0;
+    background-color: lighten($secondaryClr, 20%);
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h5 {
+        color: $whiteClr;
+        margin-bottom: 0;
+      }
+
+      .btn {
+        font-size: $fz12;
+      }
+    }
+  }
+
+  .bottomSec {
+    padding: 10px 0;
+    background-color: darken($secondaryClr, 20%);
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h6 {
+        color: $whiteClr;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+// Error One
+.errorOne {
+  padding: 150px 0 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .boxOne {
+    background-color: rgba($whiteClr, 0.6);
+    padding: 32px;
+    border-radius: 10px;
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+
+    .logo {
+      img {
+        height: 34px;
+      }
+    }
+
+    .loader {
+      margin: 32px 0;
+
+      img {
+        height: 36px;
+      }
+    }
+
+    .sectionTitle {
+      margin: 15px 0;
+      text-align: center;
+    }
+  }
+}

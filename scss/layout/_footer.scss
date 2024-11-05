@@ -1,0 +1,14 @@
+// Footer
+.mainFooter {
+  padding: 32px 0;
+}
+
+// Footer Two
+.mainFooterTwo {
+  padding: 32px 0;
+  background-color: darken($secondaryClr, 35%);
+
+  img {
+    height: 40px;
+  }
+}

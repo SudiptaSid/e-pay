@@ -1,0 +1,26 @@
+// Owl Dots
+@mixin owlDots {
+  .owl-dot {
+    width: 20px;
+    height: 20px;
+    border: 2px solid $bgLightClrThree;
+    border-radius: 50%;
+    margin: 0 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      margin: 0;
+      background-color: $bgLightClrThree;
+    }
+
+    &.active {
+      border-color: $secondaryClr;
+
+      span {
+        background-color: $secondaryClr;
+      }
+    }
+  }
+}

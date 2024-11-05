@@ -1,0 +1,42 @@
+// Checkout One
+.checkoutOne {
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ammountBox {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+
+    img {
+      height: 36px;
+    }
+
+    .info {
+      padding: 10px;
+      background-color: $bgLightClrTwo;
+      min-width: 200px;
+
+      small {
+        display: block;
+      }
+
+      b {
+        color: $titleClr;
+      }
+    }
+  }
+
+  .boxOne {
+    background-color: $bgLightClrTwo;
+    border: 1px solid $bgLightClrThree;
+    padding: 32px;
+    border-radius: 10px;
+
+    img {
+      height: 42px;
+    }
+  }
+}

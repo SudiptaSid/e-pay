@@ -1,0 +1,54 @@
+// Contact One
+.contactOne {
+  padding-top: 100px;
+
+  @include md {
+    padding-top: 60px;
+  }
+
+  .content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 48px 32px;
+    min-height: 300px;
+    position: relative;
+    z-index: 2;
+
+    &:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba($blackClr, 0.5);
+      z-index: -1;
+    }
+
+    .sectionTitle {
+      h6 {
+        color: $whiteClr;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        color: $whiteClr;
+        font-size: $fz50;
+
+        @include md {
+          font-size: $fz30;
+        }
+      }
+
+      p {
+        color: $whiteClr;
+      }
+    }
+  }
+}

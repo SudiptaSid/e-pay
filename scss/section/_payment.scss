@@ -1,0 +1,87 @@
+// Payment One
+.paymentOne {
+  padding: 130px 0 50px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .boxOne {
+    background-color: rgba($whiteClr, 0.6);
+    padding: 32px;
+    border-radius: 10px;
+    max-width: 650px;
+    margin: auto;
+
+    @include md {
+      padding: 32px 15px;
+    }
+
+    .logo {
+      text-align: center;
+
+      img {
+        height: 34px;
+      }
+    }
+
+    .sectionTitle {
+      margin: 15px 0;
+      text-align: center;
+    }
+
+    a {
+      color: $secondaryClr;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    .formInline {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      label {
+        width: 100px;
+      }
+
+      .inputs {
+        display: flex;
+        align-items: center;
+
+        @include md {
+          width: 100%;
+        }
+
+        .form-control {
+          width: 150px;
+
+          @include md {
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Code Modal
+.codeModal {
+  .modal-header {
+    flex-direction: column;
+    padding: 32px 15px;
+
+    .modal-title {
+      color: $titleClr;
+    }
+
+    .btn-close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+  }
+}
+
+.modal-backdrop {
+  background-color: rgba($blackClr, 0.7);
+}

@@ -1,0 +1,13 @@
+// About One
+.aboutOne {
+  padding-top: 100px;
+
+  @include md {
+    padding-top: 60px;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 6px;
+  }
+}

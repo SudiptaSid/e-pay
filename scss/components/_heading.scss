@@ -1,0 +1,25 @@
+// Section Title
+.sectionTitle {
+  h6 {
+    color: $secondaryClr;
+    font-size: $fz14;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: $titleClr;
+    margin: 0;
+  }
+
+  p {
+    margin: 12px 0 0;
+    font-size: $fz16;
+  }
+
+  .btnSec {
+    margin-top: 24px;
+  }
+}

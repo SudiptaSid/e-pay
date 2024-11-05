@@ -1,0 +1,23 @@
+// Back To Top
+.backTop,
+.backTop:focus {
+  font-size: $fz16;
+  line-height: 49px;
+  color: $whiteClr;
+  background-color: $primaryClr;
+  display: none;
+  height: 45px;
+  width: 45px;
+  padding: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 99;
+  border-radius: 100%;
+
+  &:hover {
+    color: $blackClr;
+  }
+}

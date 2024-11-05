@@ -1,0 +1,30 @@
+// Testimonial One
+.testimonialOne {
+  position: relative;
+  padding-top: 100px;
+
+  @include md {
+    padding-top: 60px;
+  }
+
+  .content {
+    background-color: $bgLightClrTwo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 48px 32px;
+    min-height: 450px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .owl-theme {
+    .owl-dots {
+      margin-top: 24px !important;
+
+      @include owlDots;
+    }
+  }
+}

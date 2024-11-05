@@ -1,0 +1,70 @@
+// Button
+.btn {
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  backface-visibility: hidden;
+  position: relative;
+  width: auto;
+  height: auto;
+
+  @include md {
+    padding: 10px;
+  }
+}
+
+// Primary
+.btnPrimary {
+  color: $whiteClr;
+  background-color: $primaryClr;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $whiteClr !important;
+    background-color: darken($primaryClr, 5%) !important;
+  }
+}
+
+// Secondary
+.btnSecondary {
+  color: $whiteClr;
+  background-color: $secondaryClr;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $whiteClr !important;
+    background-color: darken($secondaryClr, 5%) !important;
+  }
+}
+
+// Yellow
+.btnYellow {
+  color: $titleClr;
+  background-color: $yellowClr;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $titleClr !important;
+    background-color: darken($yellowClr, 15%) !important;
+  }
+}
+
+// Green
+.btnGreen {
+  color: $whiteClr;
+  background-color: $greenClr;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $whiteClr !important;
+    background-color: darken($greenClr, 15%) !important;
+  }
+}
